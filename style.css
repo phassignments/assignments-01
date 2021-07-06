@@ -1,0 +1,87 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+.orange-color {
+  color: orange;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.half-width img {
+  width: 80%;
+  padding-left: 50px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, red);
+  padding: 20px 30px;
+  color: white;
+  font-weight: 700;
+  border-radius: 30px;
+}
+p {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.grey-color {
+  color: gray;
+}
+.about-me {
+  background-image: url(images/about-me-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.my-recipies h1 {
+  text-align: center;
+}
+#my-recipies-text {
+  text-align: center;
+}
+
+.my-recipies-item {
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  box-shadow: 10px 10px 10px 10px grey;
+  border-radius: 30px;
+}
+.my-recipies-item img {
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 40px;
+  padding-left: 15px;
+}
+.social-media {
+  border-radius: 30px;
+  padding: 100px;
+  margin: 100px;
+  box-shadow: 10px 10px 10px 10px grey;
+}
+
+.social-media-item {
+  width: 33.3%;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 120px;
+}
